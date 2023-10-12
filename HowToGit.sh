@@ -99,3 +99,6 @@ git commit -m "Solve a conflict"
 git log --oneline --graph --all
 ##分岐が元に戻ってるはず。しかし、originがHEADに追いついていないので、
 git push
+
+##エラー対策
+git merge origin master
